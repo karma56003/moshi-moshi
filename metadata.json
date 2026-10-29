@@ -1,0 +1,6 @@
+{
+  "name": "Moshi Moshi Maid Café | Ramen, Anime & Experiencia Kawaii",
+  "description": "Sitio web oficial y plataforma de pedidos interactiva de Moshi Moshi Maid Café en Tarija, Bolivia. Ramen japonés, promos anime, comunidad cosplay y pedidos online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
