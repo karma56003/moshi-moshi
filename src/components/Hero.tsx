@@ -32,16 +32,14 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu, onExplorePromos, onCa
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             
             {/* Kawaii Welcome Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-pink-100/80 border border-pink-200 text-pink-700 text-xs font-bold tracking-wide shadow-xs mb-5">
-              <span className="flex h-2 w-2 rounded-full bg-pink-500 animate-ping" />
-              <Heart className="w-3.5 h-3.5 fill-pink-500 text-pink-500" />
-              <span>PRIMER MAID CAFÉ & RAMEN HOUSE · TARIJA</span>
-              <span className="text-pink-400">·</span>
-              <span className="text-pink-600 font-semibold">TARIJA, BOLIVIA</span>
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-pink-100/90 border border-pink-200 text-pink-700 text-[11px] sm:text-xs font-bold tracking-wide shadow-2xs mb-4 max-w-full">
+              <span className="flex h-2 w-2 rounded-full bg-pink-500 animate-ping shrink-0" />
+              <Heart className="w-3.5 h-3.5 fill-pink-500 text-pink-500 shrink-0" />
+              <span className="truncate">MAID CAFÉ & RAMEN HOUSE · TARIJA</span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.12] mb-6">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.15] mb-4 sm:mb-6">
               ¡Ramen tradicional,{' '}
               <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-rose-500 to-purple-600">
                 cultura anime
@@ -50,7 +48,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu, onExplorePromos, onCa
             </h1>
 
             {/* Subheading / Lead */}
-            <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-xl mb-7">
+            <p className="text-sm sm:text-lg text-slate-600 font-normal leading-relaxed max-w-xl mb-6 sm:mb-7">
               Ramen japonés humeante, hamburguesas kawaii y la calidez de nuestras maids en el corazón de Tarija.
             </p>
 

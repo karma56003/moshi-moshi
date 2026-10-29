@@ -260,13 +260,13 @@ export default function App() {
       <Footer />
 
       {/* Floating Quick Action Button for WhatsApp Order */}
-      <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
+      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col gap-2.5 sm:gap-3">
         <button
           onClick={handleCastSpell}
-          className="w-13 h-13 rounded-full bg-white text-pink-500 border-2 border-pink-300 shadow-xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all cursor-pointer group"
+          className="w-11 h-11 sm:w-13 sm:h-13 rounded-full bg-white text-pink-500 border-2 border-pink-300 shadow-lg flex items-center justify-center hover:scale-110 active:scale-95 transition-all cursor-pointer group"
           title="¡Invocar Hechizo Moe Moe Kyun!"
         >
-          <Sparkles className="w-6 h-6 text-pink-500 group-hover:rotate-45 transition-transform" />
+          <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-pink-500 group-hover:rotate-45 transition-transform" />
         </button>
 
         <button
@@ -274,11 +274,11 @@ export default function App() {
             playPop();
             setIsCartOpen(true);
           }}
-          className="relative w-14 h-14 rounded-full bg-gradient-to-r from-pink-500 via-rose-500 to-purple-600 text-white shadow-xl shadow-pink-500/30 flex items-center justify-center hover:scale-108 active:scale-95 transition-all cursor-pointer"
+          className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-r from-pink-500 via-rose-500 to-purple-600 text-white shadow-xl shadow-pink-500/30 flex items-center justify-center hover:scale-108 active:scale-95 transition-all cursor-pointer"
           title="Ver mi pedido"
           aria-label="Abrir carrito"
         >
-          <Heart className="w-6 h-6 fill-white" />
+          <Heart className="w-5 h-5 sm:w-6 sm:h-6 fill-white" />
           {cartCount > 0 && (
             <span className="absolute -top-1 -right-1 bg-white text-pink-600 font-black text-xs w-5 h-5 rounded-full flex items-center justify-center shadow-md animate-bounce">
               {cartCount}
